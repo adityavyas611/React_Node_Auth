@@ -21,6 +21,8 @@ cd server
 yarn install
 ```
 
+``` yarn test ``` to run the tests
+
 Split the command line into 2 to run client as well as server.
 
 ```yarn client``` - to start client http://localhost:3000
