@@ -1,0 +1,30 @@
+.outer-container {
+  display: flex;
+  margin: 100px auto;
+  width: 500px;
+  flex-direction: column;
+  justify-content: space-around;
+  background: black;
+}
+
+.logout-button {
+  text-align: center;
+  margin: 10px 0px 0px 380px;
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
+  padding: 7px 30px;
+
+}
+.logout-button:hover {
+  background-color: black;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.user-text {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

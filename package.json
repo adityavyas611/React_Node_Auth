@@ -1,0 +1,24 @@
+{
+  "name": "react-node-auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "React with Node Authentication",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "client": "yarn workspace client start",
+    "server": "yarn workspace server start",
+    "client:lint": "yarn workspace client lint",
+    "server:lint": "yarn workspace server lint",
+    "start": "yarn client && server"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-prettier": "^3.1.4"
+  }
+}
